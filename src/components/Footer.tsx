@@ -4,18 +4,21 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         {/* Logo */}
         <div className="text-center mb-8">
-          <span className="text-2xl font-bold text-jive-heading italic">jive</span>
+          <span className="text-3xl font-bold text-jive-heading">Growth Sphere 🌍✨</span>
         </div>
         
         {/* Tagline */}
         <div className="text-center mb-8">
-          <p className="text-jive-text">
-            Get connected and start jiving.
+          <p className="text-lg text-jive-text font-medium">
+            Your daily hub for personal growth, money mindset, and smart opportunities.
           </p>
         </div>
         
         {/* Links */}
         <div className="flex justify-center gap-8 mb-8">
+          <a href="https://t.me/GrowthSpheree" target="_blank" rel="noopener noreferrer" className="text-jive-text hover:text-jive-heading transition-colors font-medium">
+            Join Telegram
+          </a>
           <a href="#" className="text-jive-text hover:text-jive-heading transition-colors">
             About
           </a>
@@ -25,15 +28,12 @@ const Footer = () => {
           <a href="#" className="text-jive-text hover:text-jive-heading transition-colors">
             Terms
           </a>
-          <a href="#" className="text-jive-text hover:text-jive-heading transition-colors">
-            Contact
-          </a>
         </div>
         
         {/* Copyright */}
         <div className="text-center">
           <p className="text-sm text-jive-text-light">
-            © 2024, Jive by Prem Saini ventures.
+            © 2024, Growth Sphere. All rights reserved.
           </p>
         </div>
       </div>
